@@ -1,0 +1,36 @@
+{
+  "name": "tinyApp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -L express_server.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanOO89/tinyapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karanOO89/tinyapp/issues"
+  },
+  "homepage": "https://github.com/karanOO89/tinyapp#readme",
+  "description": ""
+}
